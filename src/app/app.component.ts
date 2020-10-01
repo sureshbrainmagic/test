@@ -54,6 +54,7 @@ export class AppComponent implements OnInit {
     private swUpdate: SwUpdate,
     private toastCtrl: ToastController,
   ) {
+    this.statusBar.styleLightContent();
     this.initializeApp();
   }
 
